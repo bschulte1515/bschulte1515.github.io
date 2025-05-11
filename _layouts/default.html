@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css"
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="site-wrapper">
+      <header class="site-header">
+        <h1 class="site-title">{{ "Ben Schulte" | upcase }}</h1>
+        <h2 class="site-sub-title">{{ "Cybersecurity Software Engineer" | upcase }}</h1>
+        {% include navigation.html %}
+      </header>
+
+      <main style="site-content">
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>
