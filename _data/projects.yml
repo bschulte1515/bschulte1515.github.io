@@ -1,8 +1,16 @@
+- name: Ro-Board
+  repo: https://github.com/shortestllama/582-Ro-board
+  description: Ro-Board is a robot companion for playing four-in-a-row. Ro-Board can play at an easy, medium, or hard difficulty and can even teach the user how to play. 
+  image: /static/images/roboard.png
+  tools: Python, Choregraphe
 - name: Pic-a-Pass
   repo: https://github.com/jDeBok/581-Pic-a-Pass
   description: Pic-a-Pass is a desktop password manager written in Python. The GUI was created using PyQT.
   image: /static/images/pap.png
+  tools: Python, PyQT
 - name: Rustbucket
   repo: https://github.com/bschulte1515/rustbucket
   description: Rustbucket provides friends with a tool suite to prank each other. These tools include a tool that hides files, a tool that moves the mouse, a tool that changes the text in the clipboard, and many more tools.
   image: /static/images/rb.png
+  tools: Rust
+

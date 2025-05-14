@@ -70,7 +70,7 @@ body {
 }
 
 .project-list {
-  list-style: none; /* remove bullet points */
+  list-style: none; 
   padding: 0;
   margin: 0;
 }
@@ -80,14 +80,62 @@ body {
   align-items: flex-start;
   margin-bottom: 2em;
   gap: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.project-item:last-child {
+  border-bottom: none;
+}
+
+.project-details h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.project-details span {
+  margin-top: 0;
 }
 
 .project-image {
-  max-width: 150px;
-  height: auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border: 1px solid #ddd;
+  border-radius: 4px; /* optional: small rounding for aesthetics */
 }
 
 .project-details {
   flex: 1;
+}
+
+.project-tools {
+  color: #ccc
+}
+
+
+.headshot-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* optional: small rounding for aesthetics */
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  gap: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-details {
+  display: flex;
+  align-items: flex-start;
+  /* margin-bottom: 2em; */
+  /* gap: 1em; */
+  /* padding-bottom: 1em; */
+  /* border-bottom: 1px solid #ccc; */
 }
