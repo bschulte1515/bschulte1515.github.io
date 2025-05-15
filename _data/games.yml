@@ -1,0 +1,13 @@
+- name: PingPangPong
+  description: Bounce the ball back and forth and try to get it past the opponent! First to 7 points wins the match.
+  image: /static/images/ppp.png
+  link: /games/pingpangpong/PingPangPong.html
+# - name: 
+#   description: 
+#   image: 
+# - name: 
+#   description: 
+#   image: 
+# - name: 
+#   description: 
+#   image: 

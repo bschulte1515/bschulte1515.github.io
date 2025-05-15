@@ -1,0 +1,16 @@
+---
+title: Games
+---
+<ul class="games-list">
+  {% for game in site.data.games %}
+    <li class="games-item">
+      <img src="{{ game.image | relative_url }}" alt="{{ game.name }} screenshot" class="games-image" />
+      <div class="games-details">
+        <h2>{{ game.name }}</h2>
+        <p>{{ game.description }}</p>
+        <p><a href="{{ game.link | relative_url }}">Play here!</a></p>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+

@@ -100,7 +100,7 @@ body {
 .project-image {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: fill;
   border: 1px solid #ddd;
   border-radius: 4px; /* optional: small rounding for aesthetics */
 }
@@ -113,11 +113,50 @@ body {
   color: #ccc
 }
 
+.games-list {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.games-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  gap: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.games-item:last-child {
+  border-bottom: none;
+}
+
+.games-details h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.games-details span {
+  margin-top: 0;
+}
+
+.games-image {
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* optional: small rounding for aesthetics */
+}
+
+.games-details {
+  flex: 1;
+}
 
 .headshot-image {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: fill;
   border: 1px solid #ddd;
   border-radius: 4px; /* optional: small rounding for aesthetics */
 }
